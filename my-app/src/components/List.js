@@ -1,10 +1,13 @@
+import Item from "./Item"
+
 function List() {
     return (
         <>
             <h1>Minhas lista</h1>
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
+                <Item marca="Ferrari"/>
+                <Item marca="Fiat"/>
+                <Item marca="Chevrollet"/>
             </ul>
         </>
     )
